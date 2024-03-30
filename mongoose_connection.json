@@ -1,0 +1,15 @@
+{
+    "mongoose.connect": {
+      "operation": "connect",
+      "uri": "mongodb://localhost/dating_site"
+    },
+    "mongoose.connect.then": {
+      "operation": "then",
+      "callback": "console.log('Connected to MongoDB')"
+    },
+    "mongoose.connect.catch": {
+      "operation": "catch",
+      "callback": "console.error('MongoDB connection error:', error)"
+    }
+  }
+  
